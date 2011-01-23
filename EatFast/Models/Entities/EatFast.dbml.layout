@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="EatFast">
+  <DataContextMoniker Name="/EatFastDataContext" />
+  <nestedChildShapes>
+    <classShape Id="485cfc02-7df2-43ad-9126-4d62e223fcc1" absoluteBounds="3.5, 0.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/EatFastDataContext/MenuItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="92f22a1f-092b-4d71-998c-84a25ba7f3bd" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="33a9cb2d-fa42-43bc-81f7-31c68b5127e0" absoluteBounds="0.75, 1.125, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/EatFastDataContext/Restaurant" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9999caa3-51ca-463b-b227-2f360bf839a6" absoluteBounds="0.765, 1.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.01044840494792); (3.5 : 2.01044840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/EatFastDataContext/Restaurant/Restaurant_MenuItem" />
+      <nodes>
+        <classShapeMoniker Id="33a9cb2d-fa42-43bc-81f7-31c68b5127e0" />
+        <classShapeMoniker Id="485cfc02-7df2-43ad-9126-4d62e223fcc1" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

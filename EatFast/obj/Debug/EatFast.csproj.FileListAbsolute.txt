@@ -3,3 +3,10 @@ H:\Development\Projects\EatFast\EatFast\bin\EatFast.pdb
 H:\Development\Projects\EatFast\EatFast\obj\Debug\ResolveAssemblyReference.cache
 H:\Development\Projects\EatFast\EatFast\obj\Debug\EatFast.dll
 H:\Development\Projects\EatFast\EatFast\obj\Debug\EatFast.pdb
+H:\Development\Projects\EatFast\EatFast\bin\Elmah.dll
+H:\Development\Projects\EatFast\EatFast\bin\Ninject.dll
+H:\Development\Projects\EatFast\EatFast\bin\Ninject.MVC3.dll
+H:\Development\Projects\EatFast\EatFast\bin\WebActivator.dll
+H:\Development\Projects\EatFast\EatFast\bin\Ninject.pdb
+H:\Development\Projects\EatFast\EatFast\bin\Ninject.xml
+H:\Development\Projects\EatFast\EatFast\bin\WebActivator.pdb

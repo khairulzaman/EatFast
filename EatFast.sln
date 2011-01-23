@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EatFast", "EatFast\EatFast.csproj", "{DA3652B0-DD9C-4AA9-88D0-310DF2E6197E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EatFast.Tests", "EatFast.Tests\EatFast.Tests.csproj", "{5CA2B090-26DA-4D60-B5A0-1831A057780F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{DA3652B0-DD9C-4AA9-88D0-310DF2E6197E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA3652B0-DD9C-4AA9-88D0-310DF2E6197E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA3652B0-DD9C-4AA9-88D0-310DF2E6197E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA2B090-26DA-4D60-B5A0-1831A057780F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA2B090-26DA-4D60-B5A0-1831A057780F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA2B090-26DA-4D60-B5A0-1831A057780F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA2B090-26DA-4D60-B5A0-1831A057780F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

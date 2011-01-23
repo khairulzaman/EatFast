@@ -1,0 +1,52 @@
+﻿@model IEnumerable<EatFast.Models.Entities.Restaurant>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th></th>
+        <th>
+            Name
+        </th>
+        <th>
+            IsActive
+        </th>
+        <th>
+            DtCreated
+        </th>
+        <th>
+            DtModified
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.RestaurantID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.RestaurantID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.RestaurantID })
+        </td>
+        <td>
+            @item.Name
+        </td>
+        <td>
+            @item.IsActive
+        </td>
+        <td>
+            @String.Format("{0:g}", item.DtCreated)
+        </td>
+        <td>
+            @String.Format("{0:g}", item.DtModified)
+        </td>
+    </tr>
+}
+
+</table>
