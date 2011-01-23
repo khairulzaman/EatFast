@@ -26,5 +26,11 @@ namespace EatFast.Models.Concrete
         {
             throw new NotImplementedException();
         }
+
+
+        public void Delete(Restaurant restaurant)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

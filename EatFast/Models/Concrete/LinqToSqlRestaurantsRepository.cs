@@ -37,5 +37,12 @@ namespace EatFast.Models.Concrete
 
             return restaurant;
         }
+
+
+        public void Delete(Restaurant restaurant)
+        {
+            dataContext.Restaurants.DeleteOnSubmit(restaurant);
+            dataContext.SubmitChanges();
+        }
     }
 }

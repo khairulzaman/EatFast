@@ -89,5 +89,29 @@ namespace EatFast.Controllers
                 return View();
             }
         }
+
+        [HttpPost]
+        public ActionResult Delete(int id = 0)
+        {
+            try
+            {
+                if (id > 0)
+                {
+                    var restaurantDelete = _repository.Restaurants.First(x => x.RestaurantID == id);
+                    _repository.Delete(restaurantDelete);
+                    ViewBag.Message = "Delete of '" + restaurantDelete.Name + "' successful.";
+                }
+                else
+                {
+                    throw new Exception();
+                }
+            }
+            catch
+            {
+                ViewBag.Message = "Unable to delete. Please try again later.";
+            }
+            
+            return RedirectToAction("Index");
+        }
     }
 }

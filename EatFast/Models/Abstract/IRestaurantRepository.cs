@@ -10,5 +10,6 @@ namespace EatFast.Models.Abstract
     {
         IQueryable<Restaurant> Restaurants { get; }
         Restaurant Save(Restaurant restaurant);
+        void Delete(Restaurant restaurant);
     }
 }

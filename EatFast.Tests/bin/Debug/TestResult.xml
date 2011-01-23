@@ -1,18 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="H:\Development\Projects\EatFast\EatFast.Tests\bin\Debug\EatFast.Tests.dll" total="2" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-01-23" time="20:31:16">
+<test-results name="H:\Development\Projects\EatFast\EatFast.Tests\bin\Debug\EatFast.Tests.dll" total="4" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-01-23" time="21:45:36">
   <environment nunit-version="2.5.9.10348" clr-version="2.0.50727.4952" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0" machine-name="INSERTCOIN-7" user="Khairulzaman" user-domain="insertcoin-7" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="H:\Development\Projects\EatFast\EatFast.Tests\bin\Debug\EatFast.Tests.dll" executed="True" result="Success" success="True" time="0.043" asserts="0">
+  <test-suite type="Assembly" name="H:\Development\Projects\EatFast\EatFast.Tests\bin\Debug\EatFast.Tests.dll" executed="True" result="Success" success="True" time="1.071" asserts="0">
     <results>
-      <test-suite type="Namespace" name="EatFast" executed="True" result="Success" success="True" time="0.032" asserts="0">
+      <test-suite type="Namespace" name="EatFast" executed="True" result="Success" success="True" time="1.049" asserts="0">
         <results>
-          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.030" asserts="0">
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="1.048" asserts="0">
             <results>
-              <test-suite type="TestFixture" name="RestaurantsControllerTests" executed="True" result="Success" success="True" time="0.026" asserts="0">
+              <test-suite type="Namespace" name="Entities" executed="True" result="Success" success="True" time="0.870" asserts="0">
                 <results>
-                  <test-case name="EatFast.Tests.RestaurantsControllerTests.Details_Should_Return_Single_Restaurant_By_ID" executed="True" result="Success" success="True" time="0.009" asserts="2" />
-                  <test-case name="EatFast.Tests.RestaurantsControllerTests.Index_Should_Return_List_Of_Restaurants" executed="True" result="Success" success="True" time="0.015" asserts="4" />
+                  <test-suite type="TestFixture" name="RestaurantsTests" executed="True" result="Success" success="True" time="0.869" asserts="0">
+                    <results>
+                      <test-case name="EatFast.Tests.Entities.RestaurantsTests.Delete_Should_Not_Fail" executed="True" result="Success" success="True" time="0.828" asserts="0" />
+                      <test-case name="EatFast.Tests.Entities.RestaurantsTests.Save_Should_Not_Fail" executed="True" result="Success" success="True" time="0.024" asserts="0" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="RestaurantsControllerTests" executed="True" result="Success" success="True" time="0.171" asserts="0">
+                <results>
+                  <test-case name="EatFast.Tests.RestaurantsControllerTests.Details_Should_Return_Single_Restaurant_By_ID" executed="True" result="Success" success="True" time="0.157" asserts="2" />
+                  <test-case name="EatFast.Tests.RestaurantsControllerTests.Index_Should_Return_List_Of_Restaurants" executed="True" result="Success" success="True" time="0.010" asserts="4" />
                 </results>
               </test-suite>
             </results>
