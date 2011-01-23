@@ -1,0 +1,5 @@
+H:\Development\Projects\EatFast\EatFast\bin\EatFast.dll
+H:\Development\Projects\EatFast\EatFast\bin\EatFast.pdb
+H:\Development\Projects\EatFast\EatFast\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\Projects\EatFast\EatFast\obj\Debug\EatFast.dll
+H:\Development\Projects\EatFast\EatFast\obj\Debug\EatFast.pdb
